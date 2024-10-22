@@ -56,7 +56,7 @@ public class AppTest {
 			Address[] toUsers = InternetAddress.parse("cazenribhjdev@gmail.com,carlhenrique@gmail.com,carloshenriquebh1007@yahoo.com,cazenriquebh@gmail.com");
 			
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress(userName,"Carlos Henrique Curso JDEV"));
+			message.setFrom(new InternetAddress(userName));
 			message.setRecipients(Message.RecipientType.TO,toUsers);
 			message.setSubject("Chegou email enviado pelo java!!!!");
 			message.setText("Testando o envio de email pelo java!");
