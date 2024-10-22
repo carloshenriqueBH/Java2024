@@ -68,3 +68,5 @@
 2024-10-22 08:24:25,100 [Worker-80: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
 2024-10-22 08:24:54,623 [Worker-73: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
 2024-10-22 08:24:54,626 [Worker-73: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-22 08:31:37,837 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-22 08:31:37,839 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
