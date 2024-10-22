@@ -19,13 +19,27 @@ public class AppTest {
 	private String senha = "apsw gwuy cvui reht";		
 	
 	@org.junit.jupiter.api.Test
-	public void testeEmail() throws Exception {
+	public void testeEmail() {
 		
-		ObjetoEnviaEmail enviaEmail = new ObjetoEnviaEmail("carlhenrique@gmail.com", 
-				                                           "Carlos Henrique - projeto JDEV", 
-				                                           "Chegou email enviado pelo java!", 
-				                                           "Você acaba de receber um email enviado pelo Java!");
-		enviaEmail.enviarEmail();
+		/*
+		 * verificar antes as configurações de SMTP do seu email
+		 * continuando 17/10/2024
+		 * POP E SMTP do gmail
+		 * Descrição do SMTP gmail: um nome genérico - ex.: "SMTP"
+		 * Nome do servidor SMTP gmail: smtp.gmail.com
+		 * Usuário SMTP gmail     : o seu endereço de email (cazenribhjdev@gmail.com)
+		 * Password SMTP gmail    : a sua password
+		 * Porta SMTP do gmail    : 465
+		 */		
 		
+		try {
+			
+		
+			
+			System.out.println("Email enviado com sucesso!");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}		
 	}  
 }

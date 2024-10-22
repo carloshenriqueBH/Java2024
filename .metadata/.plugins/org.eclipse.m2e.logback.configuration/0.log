@@ -70,3 +70,13 @@
 2024-10-22 08:24:54,626 [Worker-73: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
 2024-10-22 08:31:37,837 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
 2024-10-22 08:31:37,839 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-22 09:03:45,311 [Worker-85: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-22 09:03:45,313 [Worker-85: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-22 10:49:55,358 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-22 10:49:55,359 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-22 10:51:12,681 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-22 10:51:12,682 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-22 10:53:37,995 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-22 10:53:38,002 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-22 11:01:17,267 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-22 11:01:17,268 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources

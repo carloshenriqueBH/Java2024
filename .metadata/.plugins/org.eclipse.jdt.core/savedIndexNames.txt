@@ -4,7 +4,6 @@ INDEX VERSION 1.131+C:\TRABALHO\PROJETOS\JAVA\.metadata\.plugins\org.eclipse.jdt
 2499878056.index
 1119862308.index
 170719346.index
-1971192912.index
 1978636233.index
 1880033790.index
 1109722139.index

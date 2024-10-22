@@ -1,0 +1,5 @@
+package enviando_mail.ernviando_mail;
+
+public class ObjetoEnviaEmail {
+
+}
