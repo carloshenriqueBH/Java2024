@@ -42,7 +42,6 @@ public class AppTest {
 				                                           "Carlos Henrique - projeto JDEV", 
 				                                           "Chegou email enviado pelo java!",
 				                                           stringBuilderTextoEmail.toString());
-//				                                           "Você acaba de receber um email enviado pelo Java! Você acaba de receber um email enviado pelo Java! Você acaba de receber um email enviado pelo Java! Você acaba de receber um email enviado pelo Java! Você acaba de receber um email enviado pelo Java! Você acaba de receber um email enviado pelo Java!");
 		enviaEmail.enviarEmailComAnexo(true);
 		enviaEmail.enviarEmail(false);
 	}  

@@ -3,6 +3,9 @@ package enviando_mail.ernviando_mail;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Properties;
 
 import javax.activation.DataHandler;
@@ -27,13 +30,13 @@ public class ObjetoEnviaEmail {
 
 	private String userName = "cazenriquejdev@gmail.com";
 	private String senha = "apsw gwuy cvui reht";
-	
+
 	private String listaDestinatarios = "";
 	private String nomeRemetente = "";
 	private String assuntoEmail = "";
 	private String textoEmail = "";
-	
-	public  ObjetoEnviaEmail(String listaDestinatarios, String nomeRemetente, String assuntoEmail, String textoEmail) {
+
+	public ObjetoEnviaEmail(String listaDestinatarios, String nomeRemetente, String assuntoEmail, String textoEmail) {
 		this.listaDestinatarios = listaDestinatarios;
 		this.nomeRemetente = nomeRemetente;
 		this.assuntoEmail = assuntoEmail;
@@ -65,14 +68,13 @@ public class ObjetoEnviaEmail {
 		message.setRecipients(Message.RecipientType.TO, toUsers);
 		message.setSubject(assuntoEmail);
 		if (ehHTML) {
-			message.setContent(textoEmail,"text/html; charset=utf8");					
-		}
-		else {
+			message.setContent(textoEmail, "text/html; charset=utf8");
+		} else {
 			message.setText(textoEmail);
-		}		
-		Transport.send(message);		
+		}
+		Transport.send(message);
 	}
-	
+
 	public void enviarEmailComAnexo(boolean ehHTML) throws Exception {
 
 		Properties properties = new Properties();
@@ -97,33 +99,40 @@ public class ObjetoEnviaEmail {
 		message.setFrom(new InternetAddress(userName, nomeRemetente));
 		message.setRecipients(Message.RecipientType.TO, toUsers);
 		message.setSubject(assuntoEmail);
-		
+
 		/* 1a parte: definido o corpo do email */
 		MimeBodyPart corpoEmail = new MimeBodyPart();
-		
+
 		if (ehHTML) {
-			corpoEmail.setContent(textoEmail,"text/html; charset=utf8");					
-		}
-		else {
+			corpoEmail.setContent(textoEmail, "text/html; charset=utf8");
+		} else {
 			corpoEmail.setText(textoEmail);
-		}	
-		
-		/* 2a parte: definido o anexo do email */
-		MimeBodyPart anexoEmail = new MimeBodyPart();
-		anexoEmail.setDataHandler(new DataHandler(new ByteArrayDataSource(simuladorDePDF(), "application/pdf")));
-		anexoEmail.setFileName("anexoEmail.pdf");
-		
+		}
+		List<FileInputStream> arquivos = new ArrayList<FileInputStream>();
+		arquivos.add(simuladorDePDF());
+		arquivos.add(simuladorDePDF());
+		arquivos.add(simuladorDePDF());
+
 		Multipart multipart = new MimeMultipart();
 		multipart.addBodyPart(corpoEmail);
-		multipart.addBodyPart(anexoEmail);
+
+		int contaArquivos = 1;
+		for (FileInputStream fileInputStream : arquivos) {
+
+			/* 2a parte: definido o anexo do email */
+
+			MimeBodyPart anexoEmail = new MimeBodyPart();
+			anexoEmail.setDataHandler(new DataHandler(new ByteArrayDataSource(fileInputStream, "application/pdf")));
+			anexoEmail.setFileName("anexoEmail" + contaArquivos + ".pdf");
+			multipart.addBodyPart(anexoEmail);
+			contaArquivos++;
+		}
 		message.setContent(multipart);
-		
-		Transport.send(message);		
+		Transport.send(message);
 	}
+
 	
-	
-	
-	
+
 	private FileInputStream simuladorDePDF() throws Exception {
 		Document document = new Document();
 		File file = new File("fileAnexo.PDF");
@@ -131,7 +140,7 @@ public class ObjetoEnviaEmail {
 		PdfWriter.getInstance(document, new FileOutputStream(file));
 		document.open();
 		document.add(new Paragraph("Conteúdo do PDF Anexo com Java Mail"));
-		document.close();		
+		document.close();
 		return new FileInputStream(file);
 	}
 }

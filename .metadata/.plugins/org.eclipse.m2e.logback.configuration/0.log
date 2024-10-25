@@ -139,3 +139,20 @@
 2024-10-22 16:56:27,305 [Worker-33: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
 2024-10-22 16:57:35,985 [Worker-32: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
 2024-10-22 16:57:35,987 [Worker-32: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-22 16:57:48,577 [Worker-31: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-22 16:57:48,580 [Worker-31: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-22 17:16:12,618 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-22 17:16:12,622 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-25 09:41:38,875 [Worker-21: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-25 09:41:40,447 [Worker-19: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-25 09:41:40,451 [Worker-19: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-25 10:20:27,744 [Worker-28: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-25 10:20:27,747 [Worker-28: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-25 10:30:03,932 [Worker-33: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-25 10:30:03,934 [Worker-33: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-25 10:32:11,747 [Worker-32: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-25 10:32:11,751 [Worker-32: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-25 10:33:17,195 [Worker-33: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-25 10:33:17,197 [Worker-33: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
+2024-10-25 11:05:16,411 [Worker-35: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\main\resources
+2024-10-25 11:05:16,414 [Worker-35: Launching AppTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TRABALHO\PROJETOS\JAVA\ernviando-mail\src\test\resources
