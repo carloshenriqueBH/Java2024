@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="ernviando-mail" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="enviando_mail.ernviando_mail.AppTest" time="8.385" displayname="AppTest" uniqueid="[engine:junit-jupiter]/[class:enviando_mail.ernviando_mail.AppTest]">
-    <testcase name="testeEmail" classname="enviando_mail.ernviando_mail.AppTest" time="8.385" displayname="testeEmail()" uniqueid="[engine:junit-jupiter]/[class:enviando_mail.ernviando_mail.AppTest]/[method:testeEmail()]"/>
-  </testsuite>
-</testrun>

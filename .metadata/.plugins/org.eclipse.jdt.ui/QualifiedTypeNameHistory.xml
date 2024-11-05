@@ -25,4 +25,7 @@
     <fullyQualifiedTypeName name="javax.mail.util.ByteArrayDataSource"/>
     <fullyQualifiedTypeName name="javax.mail.Multipart"/>
     <fullyQualifiedTypeName name="javax.mail.internet.MimeMultipart"/>
+    <fullyQualifiedTypeName name="com.itextpdf.text.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
